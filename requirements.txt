@@ -1,0 +1,4 @@
+requests
+regex
+pytube
+pyTelegramBotAPI
