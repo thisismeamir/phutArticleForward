@@ -83,7 +83,7 @@ class instance:
         return textmessage
     @staticmethod
     def videoTextFormat(video):
-        textmessage = f"🎥  {video['title']}\n\n👤 {video['channel']}\n\n🔗 {video}\n\n🪐@UTPhysicsArticles"
+        textmessage = f"🎥  {video['title']}\n\n👤 {video['channel']}\n\n🔗 {video['link']}\n\n🪐@UTPhysicsArticles"
         return textmessage
     @staticmethod
     def quantamagTextFormat(post, link):

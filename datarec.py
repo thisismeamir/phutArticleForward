@@ -81,7 +81,8 @@ class information:
                channel_name = yt.author
 
                return {'title': title,
-                       'channel':channel_name}
+                       'channel':channel_name,
+                       'link': link}
 
           except Exception as e:
                print(f"Error occurred: {e}")
